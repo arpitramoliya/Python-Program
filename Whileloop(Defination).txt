@@ -1,0 +1,32 @@
+# Set the number of levels in the pyramid
+levels = 5
+
+# Initialize the current level
+i = 1
+
+# Create the pyramid
+while i <= levels:
+    j = 1
+    while j <= i:
+        print(j, end=" ")
+        j += 1
+    print()
+    i += 1
+
+
+
+
+# Get the number of levels from the user
+levels = int(input("Enter the number of levels in the pyramid: "))
+
+# Initialize the current level
+i = 1
+
+# Create the pyramid
+while i <= levels:
+    j = 1
+    while j <= i:
+        print(j, end=" ")
+        j += 1
+    print()
+    i += 1
